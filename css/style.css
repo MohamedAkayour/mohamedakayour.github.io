@@ -348,7 +348,7 @@ nav .fa {
 
 @keyframes html-fill {
     100% {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -358,7 +358,7 @@ nav .fa {
 
 @keyframes office-fill {
     100% {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -368,7 +368,7 @@ nav .fa {
 
 @keyframes script-fill {
     100% {
-        width: 70%;
+        width: 75%;
     }
 }
 
@@ -378,7 +378,7 @@ nav .fa {
 
 @keyframes stats-fill {
     100% {
-        width: 85%;
+        width: 60%;
     }
 }
 
@@ -396,6 +396,66 @@ nav .fa {
     .myPortrait {
         text-align: center;
     }
+}
+
+
+/*--------Recommendations------*/
+
+.Recommendations {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.Recommendations h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.RecommendationsRow {
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.Irene {
+    color: white;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    transition: 0.5s;
+}
+
+.Irene:hover {
+    box-shadow: 0 0 20px 0px white;
+}
+
+.KPMG {
+    color: white;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    transition: 0.5s;
+}
+
+.KPMG:hover {
+    box-shadow: 0 0 20px 0px white;
 }
 
 
@@ -856,6 +916,7 @@ nav .fa {
     background: #1b1b1b;
     border-radius: 10px;
     margin-bottom: 5%;
+    margin-right: 5%;
     padding: 5px 10px;
     box-sizing: border-box;
     width: 265px;
