@@ -851,6 +851,80 @@ nav .fa {
     width: 100%;
 }
 
+.KPMGp {
+    position: relative;
+    color: white;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 28px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.KPMGimage {
+    display: block;
+    height: 325px;
+}
+
+.overlay9 {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.text9 {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.text9 {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+}
+
+.left9 {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.textleft9 {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.KPMGp:hover {
+    box-shadow: 0 0 20px 0px white;
+}
+
+.KPMGp:hover .overlay9 {
+    opacity: 0.8;
+}
+
+.KPMGp:hover .text9 {
+    opacity: 1;
+}
+
+.KPMGp:hover .left9 {
+    width: 100%;
+}
+
+.KPMGp:hover .textleft9 {
+    width: 100%;
+}
+
 
 /*-------Interests-----*/
 
